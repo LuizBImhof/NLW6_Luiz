@@ -8,7 +8,7 @@ export class AlterUserAddPassword1624492249027 implements MigrationInterface {
             new TableColumn({
                 name: "password",
                 type: "varchar",
-                default: "123456",
+                default: "123456",//ou isNullabe? true para permitir criar com a tabela já tendo dados
             })
         );
     }
